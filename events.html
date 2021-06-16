@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Events</title>
+</head>
+<body>
+    <h1 id="counter">Counter</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, nemo!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <p>Eligendi odit dignissimos iure rem cum error quod.</p>
+    <p>Autem, facilis impedit. Recusandae enim nemo maxime sequi.</p>
+    <button>Click-0</button>
+    <button id="second">Click-1</button>
+    <button id="last-btn">Click-2</button>
+
+</body>
+<script>
+
+
+    document.getElementById('last-btn').addEventListener("click",function(){
+        document.body.style.color = "tomato";
+    })
+
+    document.getElementById('second').addEventListener("click", function(){
+        document.body.style.backgroundColor = "yellow";
+    })
+
+
+    // function handler(){
+    //     document.body.style.backgroundColor = "yellow"
+    // }
+
+    // var secondBtn = document.getElementById('second');
+        // secondBtn.addEventListener("click", handler)
+    // secondBtn.onclick = handler;
+
+</script>
+</html>
